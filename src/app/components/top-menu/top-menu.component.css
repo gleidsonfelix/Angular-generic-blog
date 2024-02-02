@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header__menu li {
+    list-style: none;
+}
+
+.header__menu li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header__menu li a:hover {
+    transition: 0.5s linear;
+    color: #b3b3b3;
+}
