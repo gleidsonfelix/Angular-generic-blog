@@ -2,13 +2,13 @@
 
     <div class="cards__img">
 
-        <img src="{{photo}}" alt="Dogs">
+        <img [routerLink]="['content', id]" src="{{photo}}" alt="Dogs">
 
     </div>
 
     <div class="cards__title">
 
-        <h2>{{additionalCardTitle}}</h2>
+        <h2><a [routerLink]="['content', id]">{{additionalCardTitle}}</a></h2>
 
     </div>
 

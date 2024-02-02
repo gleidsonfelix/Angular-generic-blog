@@ -2,13 +2,13 @@
 
     <div class="main-content__img">
 
-        <img src="{{photo}}" alt="Off-Road Car">
+        <img [routerLink]="['content', id]" src="{{photo}}" alt="Off-Road Car">
 
     </div>
 
     <div class="main-content__title">
 
-        <h2>{{mainCardTitle}}</h2>
+        <h2><a [routerLink]="['content', id]">{{mainCardTitle}}</a></h2>
 
     </div>
 

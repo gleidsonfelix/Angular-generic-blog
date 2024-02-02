@@ -22,11 +22,17 @@
     font-size: 32px;
 }
 
-.main-content:hover h2 {
+.main-content__title h2 a {
+    text-decoration: none;
+}
+
+.main-content h2 a:hover {
     transition: 0.5s linear;
     scale: 1.015;
     color: #b2b2b2;
 }
+
+
 
 .main-content__text p {
     font-size: 18px;

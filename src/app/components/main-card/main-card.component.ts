@@ -1,9 +1,10 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-main-card',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './main-card.component.html',
   styleUrl: './main-card.component.css'
 })
@@ -17,6 +18,9 @@ export class MainCardComponent {
 
   @Input()
   mainCardText:string = ""
+
+  @Input()
+  id:string = "0"
 
   constructor() {}
 
